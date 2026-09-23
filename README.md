@@ -12,7 +12,7 @@ Aplicación móvil multiplataforma para la gestión inteligente de stock. Permit
 ## Miembros del Equipo y Roles
 
 ### Frontend
-- **Elena** - Desarrolladora Frontend 
+- **Elena Sáez Lascurain** - Desarrolladora Frontend 
 - **Álvaro** - Desarrollador Frontend
 
 ###  Backend
