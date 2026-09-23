@@ -16,5 +16,5 @@ Aplicación móvil multiplataforma para la gestión inteligente de stock. Permit
 - **Álvaro** - Desarrollador Frontend
 
 ###  Backend
-- **Carmen** - Desarrolladora Backend 
+- **Carmen Monge Montes** - Desarrolladora Backend 
 - **Ángel** - Desarrollador Backend 
