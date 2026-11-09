@@ -8,7 +8,177 @@
 
 
 ## 1. Sector profesional y perfil de usuarios
+### 1.1 Contexto:
+A día de hoy, la competitividad en el sector de la logística la gana quien posee los datos más limpios y procesables. El uso de la IA, IoT y Transportation Management System (TMS) han dejado de ser una mejora y pasan a ser la base operativa. El control, la visibilidad y la sostenibilidad actualmente son los activos más valorados en el sector. Estos permiten a las empresas ser ágiles en un mercado que actualmente no se puede permitir la fragmentación.[1]
 
+
+### 1.2. Principales tendencias de digitalización:[3]
+- **Automatización y robótica en almacenes:**  
+Incorporación de robots, sistemas automáticos de clasificación, preparación de pedidos (picking) y gestión inteligente de inventarios.  
+**Objetivo:** reducir errores, costes operativos y tiempos de preparación, aumentando la productividad.
+
+- **Internet de las cosas (IoT) y trazabilidad en tiempo real:**  
+Uso de sensores conectados en vehículos, contenedores, palés y almacenes para controlar la ubicación y las condiciones de las mercancías, como la temperatura y la humedad.  
+**Objetivo:** conocer el estado de los envíos, detectar incidencias y garantizar la conservación de productos sensibles.
+
+- **Inteligencia artificial y analítica predictiva:**  
+Algoritmos para prever la demanda, optimizar rutas, planificar recursos y anticipar retrasos o interrupciones en el suministro.  
+**Objetivo:** pasar de reaccionar ante los problemas a anticiparlos y tomar decisiones basadas en datos.
+
+- **Gemelos digitales:**  
+Creación de réplicas virtuales de almacenes, procesos o redes logísticas para simular cambios y analizar sus consecuencias antes de aplicarlos.  
+**Objetivo:** reducir riesgos, identificar cuellos de botella y mejorar la planificación de operaciones.
+
+- **Plataformas en la nube y conectividad 5G:**  
+Integración de información sobre pedidos, inventarios, transportes y proveedores mediante sistemas conectados y servicios en la nube.  
+**Objetivo:** compartir información actualizada, coordinar operaciones y mejorar la visibilidad global de la cadena de suministro.
+
+- **Digitalización del último tramo:**  
+Uso de rutas dinámicas, taquillas inteligentes, puntos de recogida y herramientas de seguimiento de entregas. Los drones y vehículos autónomos aparecen como soluciones emergentes.  
+**Objetivo:** reducir los costes de reparto, mejorar la puntualidad y ofrecer mayor flexibilidad al cliente.
+
+
+#### 2.1. ¿Qué es la digitalización?
+La digitalización es el paso del formato físico al digital [2]
+
+
+#### 2.2. ¿Qué diferencia hay entre digitalización y transformación digital?
+La digitalización se enfoca en un único objeto, mientras que la transformación digital implica a todo el negocio, pudiendo requerir incluso de programas de formación [2]
+
+
+#### 2.3. Ventajas de la digitalización: [2]
+- **Ahorro de espacio** --> Los documentos a papel ocupan más espacio físico, el cual se puede aprovechar para otra cosas o para mantener un un entorno de trabajo más espacioso y organizado.
+- **Protección de documentos** --> Si los documentos se encuentran en estado físico puede sufrir daños, ya sea por humedad, que se arruguen, rompan, pierdan, traspapelen, etc. Al tener dichos documentos en la nube o almacenados de forma externa, ese daño es reducido.
+- **Rapidez en la consulta** --> Al ahorrar en tiempo en las consultas de datos se puede dedicar dicho tiempo a la elaboración de otras tareas mejorando la productividad.
+- **Ahorro de papel** --> Se mejora en las cuestiones medioambientales al dejar de utilizar papel, tal y como se establece en el certificación ISO 14001 – Sistemas de Gestión Ambiental (SGA).
+- **Mejor acceso a la información** --> Al poder acceder a la información de manera remota, se pueden implementar mejores medidas de seguridad, entre ellas, quién tiene permisos para ver ciertos documentos.
+
+
+### 1.3. Necesidades tecnológicas del sector
+La transformación digital del sector logístico hace necesario disponer de sistemas informáticos capaces de gestionar la información del almacén de forma centralizada, fiable y segura. La identificación de productos, el registro de movimientos y el seguimiento de las mercancías son aspectos fundamentales para mejorar la trazabilidad y coordinar las operaciones logísticas [4], [5].
+A partir de las tendencias digitales se ha llegado a la conclusión de que las necesidades son las siguientes:
+- Automatización
+- Conectividad
+- Análisis de datos
+- Integración de sistemas
+- Seguridad digital.
+
+
+### 1.4. Identificación y clasificación de los perfiles de usuarios
+La aplicación SGA será utilizada por personas que desempeñan diferentes funciones dentro del almacén y de la organización. Cada perfil tiene unas responsabilidades concretas y necesita acceder a determinadas funcionalidades. Por ello, es importante establecer un sistema de roles y permisos que permita que cada usuario consulte o modifique únicamente la información necesaria para desempeñar su trabajo. Esta separación de permisos es coherente con los modelos de gestión de usuarios y de control de operaciones que se utilizan en sistemas SGA comerciales [6].
+
+Los perfiles que se proponen a continuación son las clasificaciones funcionales existentes en la logística de almacenamiento. No todas las empresas tienen por qué disponer de todos ellos.
+
+
+#### 4.1. Ficha de usuario 1: **Administrador del sistema**
+**Descripción del perfil:** Es la persona responsable de administrar la aplicación, configurar sus parámetros y gestionar las cuentas de los usuarios.
+- **Objetivo principal:** garantizar el funcionamiento correcto y seguro del SGA.
+- **Funciones principales:**
+  - Crear, modificar y desactivar cuentas de usuario.
+  - Asignar roles y permisos.
+  - Configurar parámetros generales del sistema.
+  - Consultar registros de actividad y errores.
+  - Gestionar copias de seguridad, cuando corresponda.
+- **Necesidades tecnológicas:** acceso a herramientas de administración, gestión de credenciales, registro de actividad y mecanismos de recuperación.
+- **Funcionalidades del SGA:** gestión de usuarios, roles, configuración y auditoría.
+- **Permisos:** acceso administrativo a la configuración.
+
+
+#### 4.2. Ficha de usuario 2: **Responsable o jefe de almacén**
+**Descripción del perfil:** Supervisa las operaciones diarias del almacén, organiza los recursos y comprueba que las mercancías se gestionen correctamente.
+- **Objetivo principal:** optimizar el funcionamiento del almacén y cumplir los plazos de preparación y expedición.
+- **Funciones principales:**
+  - Supervisar las entradas y salidas de mercancías.
+  - Consultar las existencias y las ubicaciones.
+  - Asignar y supervisar tareas.
+  - Revisar incidencias y diferencias de inventario.
+  - Consultar indicadores e informes de actividad.
+- **Necesidades tecnológicas:** información actualizada, paneles de control, filtros de búsqueda e informes.
+- **Funcionalidades del SGA:** consulta global del almacén, supervisión de pedidos, control de inventario e informes.
+- **Permisos:** consultar la información operativa y autorizar determinadas modificaciones o ajustes, según las reglas establecidas.
+
+
+#### 4.3. Ficha de usuario 3: **Operario de recepción de mercancías**
+**Descripción del perfil:** Se encarga de recibir las mercancías procedentes de proveedores u otros almacenes y comprobar que coincidan con la documentación correspondiente.
+- **Objetivo principal:** registrar correctamente las mercancías que entran en el almacén.
+- **Funciones principales:**
+  - Consultar las recepciones previstas.
+  - Identificar los productos recibidos.
+  - Registrar cantidades, lotes y posibles incidencias.
+  - Comunicar productos dañados o cantidades incorrectas.
+  - Confirmar la recepción de mercancías.
+- **Necesidades tecnológicas:** interfaz sencilla, búsqueda de productos, formularios rápidos y lectura de códigos de barras.
+- **Funcionalidades del SGA:** recepción, consulta de pedidos de entrada, registro de cantidades e incidencias.
+- **Permisos:** crear y modificar recepciones propias mientras estén pendientes de confirmación, sin acceso a la administración general.
+
+
+#### 4.4. Ficha de usuario 4: **Operario de almacén y preparación de pedidos**
+**Descripción del perfil:** Realiza tareas de ubicación, traslado y recogida de productos para completar los pedidos solicitados.
+- **Objetivo principal:** localizar y mover las mercancías correctamente, reduciendo errores y tiempos de trabajo.
+- **Funciones principales:**
+  - Consultar las ubicaciones de los productos.
+  - Registrar movimientos entre ubicaciones.
+  - Consultar las tareas de preparación asignadas.
+  - Confirmar los productos recogidos y sus cantidades.
+  - Comunicar incidencias de localización o falta de existencias.
+- **Necesidades tecnológicas:** acceso rápido desde dispositivos móviles, búsqueda por código y confirmación de operaciones.
+- **Funcionalidades del SGA:** consulta de ubicaciones, movimientos internos, preparación de pedidos y comunicación de incidencias.
+- **Permisos:** registrar los movimientos y las tareas asignadas, sin poder modificar libremente el inventario global.
+
+
+#### 4.5. Ficha de usuario 5: **Responsable de inventario**
+**Descripción del perfil:** Comprueba que las cantidades registradas en el sistema coincidan con las existencias físicas del almacén.
+- **Objetivo principal:** mantener un inventario fiable y detectar diferencias entre los datos registrados y la realidad.
+- **Funciones principales:**
+  - Consultar las existencias por producto y ubicación.
+  - Realizar recuentos físicos y cíclicos.
+  - Registrar diferencias encontradas.
+  - Revisar el historial de movimientos.
+  - Proponer o ejecutar ajustes autorizados.
+- **Necesidades tecnológicas:** consultas precisas, historial de operaciones, herramientas de recuento y registro de diferencias.
+- **Funcionalidades del SGA:** inventario, recuentos, consulta de movimientos y gestión de ajustes.
+- **Permisos:** consultar el stock y registrar recuentos; los ajustes definitivos pueden requerir autorización del responsable de almacén.
+
+
+#### 4.6. Ficha de usuario 6: **Operario de expedición y preparación final**
+**Descripción del perfil:** Verifica los productos preparados, los acondiciona para su envío y registra la salida de las mercancías.
+- **Objetivo principal:** garantizar que los pedidos expedidos coincidan con lo solicitado y queden registrados correctamente.
+- **Funciones principales:**
+  - Consultar los pedidos pendientes de expedición.
+  - Verificar los productos y las cantidades.
+  - Registrar el embalaje y el etiquetado, si forman parte del sistema.
+  - Confirmar la salida de los pedidos.
+  - Comunicar errores o incidencias antes del envío.
+- **Necesidades tecnológicas:** consulta de pedidos, validación de productos, generación de etiquetas cuando corresponda y registro de expediciones.
+- **Funcionalidades del SGA:** expedición, consulta de pedidos, validación y trazabilidad de las salidas.
+- **Permisos:** gestionar las expediciones asignadas y confirmar salidas, sin modificar la configuración del sistema.
+
+
+### 1.5. Necesidades de los usuarios y requisitos de la aplicación
+La identificación de los perfiles permite transformar las necesidades laborales en funcionalidades concretas del SGA.
+
+ | Necesidad del usuario | Requisito que debe cubrir la aplicación | 
+ |---|---|
+ | Conocer las existencias disponibles | Consultar el stock actualizado por producto y ubicación | 
+ | Registrar entradas y salidas | Disponer de formularios para confirmar los movimientos | 
+ | Localizar rápidamente los productos | Permitir búsquedas por referencia, nombre o código  | 
+ | Evitar errores en la preparación | Validar los productos y las cantidades de cada pedido | 
+ | Conocer el historial de un producto | Consultar sus movimientos y datos de trazabilidad | 
+ | Acceder solo a las funciones autorizadas | Implementar autenticación y control de permisos por rol | 
+ | Detectar diferencias de inventario | Registrar recuentos, incidencias y ajustes autorizados | 
+ | Supervisar el funcionamiento del almacén | Generar informes sobre existencias, movimientos y pedidos | 
+ | Trabajar desde distintos dispositivos | Diseñar una interfaz adaptable a ordenadores y móviles | 
+
+Estas necesidades se derivan de los procesos habituales de identificación, almacenamiento, preparación, expedición y trazabilidad de mercancías [4], [5], así como de la separación de responsabilidades y permisos presente en las aplicaciones SGA [6].
+
+
+### 1.6. Referencias
+[1] M. Hernández, «Qué es la digitalización y cuáles son sus ventajas», Telefónica. Accedido: 21 de octubre de 2026. [En línea]. Disponible en: https://www.telefonica.com/es/sala-comunicacion/blog/digitalizacion-que-es/
+[2] «Digitalización logística 2026: tendencias», Synex Logistics. Accedido: 20 de octubre de 2026. [En línea]. Disponible en: https://synexlogistics.com/es/articulos/tendencias-de-la-digitalizacion-logistica-en-2026/
+[3] «Tendencias logísticas 2026: Tecnologías, IA, oportunidades.», Blog Across Logistics. Accedido: 26 de octubre de 2026. [En línea]. Disponible en: https://acrosslogistics.com/blog/tendencias-logisticas/
+[4] «El Sistema GS1», GS1 Spain. Accedido: 27 de octubre de 2026. [En línea]. Disponible en: https://www.gs1es.org/estandares-gs1-identificar-capturar-compartir/
+[5] «GS1 Global Traceability Standard | GS1». Accedido: 27 de octubre de 2026. [En línea]. Disponible en: https://www.gs1.org/standards/gs1-global-traceability-standard/#2-Traceability-and-the-importance-of-standards
+[6] «NetSuite Applications Online Help», Oracle Help Center. Accedido: 27 de octubre de 2026. [En línea]. Disponible en: https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_156520480478.html
 ## 1. Contexto:
 A día de hoy, la competitividad en el sector de la logística la gana quien posee los datos más limpios y procesables. El uso de la IA, IoT y Transportation Management System (TMS) han dejado de ser una mejora y pasan a ser la base operativa. El control, la visibilidad y la sostenibilidad actualmente son los activos más valorados en el sector. Estos permiten a las empresas ser ágiles en un mercado que actualmente no se puede permitir la fragmentación.[1]
 
@@ -649,17 +819,214 @@ https://openjdk.org/legal/
 https://www.figma.com/legal/tos/
 
 ## 6. Estudio de viabilidad económica
+### 1. Objetivo y metodología
+ 
+Se estimó el coste de desarrollar StockScan SGA y el posible retorno económico de su implantación en un almacén, para comprobar si el proyecto es económicamente sostenible. Los importes se agrupan en tres tipos: costes **reales** (desembolsos efectivos), **estimados** (valoración de los recursos usados durante el desarrollo) e **hipotéticos** (gastos de una futura implantación comercial).
+ 
+El trabajo del equipo se valora con una tarifa orientativa de 18 €/hora, propia de un desarrollador júnior. Las horas son las acumuladas por los cuatro integrantes: 74 h realizadas y 17 h pendientes, en total 91 h. Los demás valores (potencia de los equipos, precio de la electricidad, tarifa de Internet y ahorro de tiempo) son hipótesis de cálculo y no datos medidos.
+ 
+### 2. Presupuesto de desarrollo
+ 
+| Concepto | Cálculo | Importe |
+|---|---|---:|
+| Personal | 91 h × 18 €/h | 1.638,00 € |
+| Hardware | Cuatro ordenadores HP ProOne cedidos por el centro | 0,00 € |
+| Electricidad | 4 equipos × 16,65 h × 0,060 kW × 0,20 €/kWh | 0,80 € |
+| Internet | 5 % de 4 conexiones domésticas de 35 €/mes durante 5,5 meses | 38,50 € |
+| Software e infraestructura | Herramientas con versión o plan gratuito, sin alojamiento contratado | 0,00 € |
+| Contingencias | 10 % de 1.677,30 € | 167,73 € |
+| **Inversión inicial estimada** | | **1.845,03 €** |
+ 
+Los 1.845,03 € son el valor económico del proyecto, incluido el trabajo del equipo, y no el dinero desembolsado: el gasto real es solo el coste proporcional de electricidad e Internet.
+ 
+### 3. Mantenimiento
+ 
+Para una futura implantación se estiman 24 horas anuales de mantenimiento (corrección de errores, actualizaciones, pequeñas mejoras y soporte), que a 18 €/hora suponen **432 € al año**. Este importe es hipotético y queda fuera de la inversión inicial.
+ 
+### 4. Retorno de la inversión (ROI)
+ 
+Escenario hipotético: dos trabajadores usan la aplicación, cada uno ahorra 30 minutos al día durante 220 días al año, con un coste laboral de 15 €/hora.
+ 
+| Concepto | Cálculo | Resultado |
+|---|---|---:|
+| Horas ahorradas al año | 2 × 0,5 h × 220 días | 220 h |
+| Ahorro anual | 220 h × 15 €/h | 3.300 € |
+| Beneficio neto del primer año | 3.300 − 432 − 1.845,03 | 1.022,97 € |
+| ROI | 1.022,97 / 1.845,03 × 100 | 55,44 % |
+| Periodo de recuperación | 1.845,03 / (3.300 − 432) | 0,64 años (unos 7,7 meses) |
+ 
+### 5. Hallazgos
+ 
+1. El gasto directo del desarrollo es muy bajo (39,30 €), porque las herramientas tienen versión gratuita y los equipos los cede el centro.
+2. Casi toda la inversión es el valor del trabajo del equipo (1.638 € de 1.845,03 €).
+3. El mantenimiento anual (432 €) es pequeño frente al ahorro estimado (3.300 €), por lo que el resultado depende sobre todo del tiempo que se ahorre realmente.
+### 6. Conclusión
+ 
+En el escenario planteado, StockScan SGA presenta una **viabilidad económica inicial favorable**, con un ROI del 55,44 % en el primer año y una recuperación de la inversión en unos 7,7 meses.
+ 
+Estos resultados son orientativos: se basan en un almacén hipotético y no en datos medidos, y dependen del tamaño del almacén, del número de trabajadores y del ahorro real de tiempo. Habría que validarlos con pruebas en un entorno real. Además, el estudio no incluye los costes de publicar la aplicación en Google Play y App Store ni los de un servidor en producción, que corresponderían a una distribución comercial.
 
 ## 7. Estudio de viabilidad legal y normativa
 
 ### 7.1. Protección de datos personales
+## Marco Legal, Protección de Datos y Privacidad desde el Diseño
+
+En el desarrollo e implementación del sistema **StockScan SGA**, la protección de los datos de carácter personal y la garantía de los derechos digitales de los usuarios constituyen un pilar fundamental de la arquitectura. A continuación, se detalla el análisis normativo y las medidas técnicas aplicadas en cumplimiento del Reglamento General de Protección de Datos (RGPD, UE 2016/679) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
+
+### 1. Identificación de Datos de Carácter Personal Recabados
+
+Atendiendo al principio de **minimización de datos** (Art. 5.1.c del RGPD), el sistema limita la recogida de información a los campos estrictamente necesarios para la operativa logística y la gestión de almacenes:
+
+* **Datos de Identificación y Acceso:** Nombre completo, correo electrónico corporativo, nombre de usuario (`username`) e identificador único (`user_id`). Las contraseñas se procesan de forma irreversible y nunca se almacenan en texto plano.
+* **Perfil Operativo:** Rol asignado en la aplicación (*Operario*, *Supervisor*, *Administrador*) y asignación de cuadrantes o turnos de trabajo.
+* **Datos de Registro Horario y Trazabilidad Operativa:** Marcas de tiempo de fichaje (entrada/salida de la jornada laboral) e historial de acciones en planta (lecturas de códigos de barras, movimientos de palés, mermas y reubicaciones vinculadas al ID del usuario).
+* **Comunicaciones Internas:** Historial de mensajes y marcas de tiempo procesados mediante el chat interno de planta.
+
+### 2. Base de Legitimación del Tratamiento (Art. 6.1 RGPD)
+
+El tratamiento de los datos personales recopilados en StockScan SGA se justifica bajo las siguientes bases jurídicas:
+
+* **Ejecución del Contrato Laboral (Art. 6.1.b RGPD):** Tratamiento indispensable para la asignación de tareas, la operativa de almacén y la ejecución de la prestación laboral por parte de los operarios.
+* **Cumplimiento de Obligación Legal (Art. 6.1.c RGPD y Art. 20.2 LOPDGDD):** Respaldo jurídico directo para la recogida y conservación del registro diario de la jornada laboral exigido por la normativa laboral vigente en España.
+* **Interés Legítimo (Art. 6.1.f RGPD):** Garantizar la seguridad de los activos de la empresa, la trazabilidad técnica del inventario, la prevención de descuadres o fraudes y el control físico de las mercancías en planta.
+
+### 3. Medidas de Privacidad desde el Diseño y por Defecto (Art. 25 RGPD)
+
+Para asegurar un nivel adecuado de seguridad frente a los riesgos del tratamiento (Art. 32 RGPD), se han integrado en el software las siguientes soluciones técnicas:
+
+#### Control de Acceso Basado en Roles (RBAC)
+La interfaz y la lógica de negocio restringen las funcionalidades según el rol autenticado. Los operarios solo acceden a las vistas de lectura y registro operativo, mientras que las métricas globales y la administración de usuarios quedan reservadas a supervisores y administradores.
+
+#### Almacenamiento Seguro de Credenciales
+Se implementan algoritmos de hashing seguro (**bcrypt** / **SHA-256** con *salt*) en la capa DAO antes de persistir cualquier credencial de acceso en la base de datos, imposibilitando su recuperación en texto plano.
+
+#### Persistencia Local Protegida (SQLite)
+El almacenamiento local en la base de datos SQLite aprovecha el entorno de aislamiento (*sandbox*) proporcionado por el sistema operativo del dispositivo (Android/iOS/Desktop), impidiendo que aplicaciones de terceros puedan acceder al archivo de datos.
+
+#### Política de Retención y Eliminación de Datos
+* **Chat de planta:** Purga automática periódica de los mensajes del chat transcurridos 30 días.
+* **Fichajes e Historial:** Retención de datos de jornada durante el plazo legal obligatorio (4 años) y posterior borrado seguro o anonimización tras la baja laboral del trabajador.
+
+---
+
+**Referencias (IEEE)**
+[1] Unión Europea, "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD)," *Diario Oficial de la Unión Europea*, L 119, pp. 1-88, 2016. [En línea]. Disponible en: https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679  
+[2] Jefatura del Estado (España), "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)," *Boletín Oficial del Estado*, no. 294, BOE-A-2018-16673, 2018. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673  
+[3] Agencia Española de Protección de Datos (AEPD), "Guía de Privacidad desde el Diseño," *AEPD*, 2019. [En línea]. Disponible en: https://www.aepd.es/es/documento/guia-privacidad-desde-el-diseno.pdf  
+[4] SQLite Development Team, "Databases in Mobile Applications and Local Storage Security," *SQLite Documentation*, 2024. [En línea]. Disponible en: https://www.sqlite.org/docs.html
 
 ### 7.2. Propiedad intelectual y licencias
+do estático/dinámico de aplicaciones comerciales sin transmitir el efecto *copyleft* al código propio [4]. |
+| **FlatLaf** | Look & Feel (Swing GUI) | Apache License 2.0 | Compatible | Permite la incorporación, modificación y distribución en software comercial sin exigir la liberación del fuente. Requiere mantener el aviso de copyright [2]. |
+| **SQLite JDBC Driver** | Conector Base de Datos | Apache License 2.0 / Public Domain | Compatible | Facilita la persistencia local en dispositivos sin imponer restricciones de redistribución ni derechos de autor limitantes [3]. |
+| **jBCrypt** | Cifrado de Credenciales | MIT License | Compatible | Licencia ampliamente permisiva que permite su libre empaquetado en productos comerciales manteniendo la nota de autor original [1]. |
+| **JUnit 5** | Pruebas Unitarias | Eclipse Public License 2.0 (EPL 2.0) | Compatible | Empleado exclusivamente como herramienta de pruebas en la fase de desarrollo e integración continua. No se distribuye dentro del binario final en producción [1]. |
+| **Lucide / FontAwesome** | Iconografía e Interfaz | ISC / SIL OFL / CC BY 4.0 | Compatible | Recurso gráfico abierto compatible con el diseño de interfaces comerciales mediante la correcta inclusión de los créditos tipográficos e iconográficos [1]. | 
+
+### 3. Dictamen de Viabilidad Legal
+
+De acuerdo con la auditoría realizada sobre la matriz de dependencias, **se confirma la plena viabilidad legal del proyecto** [1], [2]. Ninguna de las bibliotecas ni componentes de terceros integrados en la arquitectura de StockScan SGA infringe derechos de propiedad intelectual de terceros ni impone restricciones que comprometan la titularidad exclusiva del código propietario desarrollado por el equipo [1], [3].
+
+---
+
+**Referencias (IEEE)**
+[1] Free Software Foundation (FSF), "Various Licenses and Comments about Them," *GNU Operating System*, 2024. [En línea]. Disponible en: https://www.gnu.org/licenses/license-list.html  
+[2] Apache Software Foundation, "Apache License, Version 2.0," *Apache Software Foundation*, 2024. [En línea]. Disponible en: https://www.apache.org/licenses/LICENSE-2.0  
+[3] SQLite Development Team, "SQLite Copyright and Intellectual Property," *SQLite Documentation*, 2024. [En línea]. Disponible en: https://www.sqlite.org/copyright.html  
+[4] Oracle, "Oracle Java SE Licensing FAQ," *Oracle Technology Network*, 2024. [En línea]. Disponible en: https://www.oracle.com/java/technologies/javase/jdk-faqs.htm
 
 ### 7.3. Accesibilidad y otros requisitos aplicables
+## 1. Objetivos de Accesibilidad
+
+El objetivo fundamental de este apartado es garantizar que la interfaz gráfica de **StockScan SGA** sea plenamente operativa y eficiente para el mayor número de personas posible, incluyendo usuarios con limitaciones sensoriales (auditivas o de visión del color) y motrices. 
+
+Para lograrlo, la arquitectura de la interfaz se ha diseñado en estricto cumplimiento con los estándares internacionales de accesibilidad digital y las normativas europeas/nacionales aplicables a productos y servicios TIC.
+## 2. Marco Normativo y Principios Adoptados
+
+### 2.1. Norma UNE-EN 301 549 y Pautas WCAG 2.1 (Nivel AA)
+Se adopta como marco de referencia la norma **UNE-EN 301 549** (*Requisitos de accesibilidad para productos y servicios TIC*) en convergencia con las **Pautas de Accesibilidad al Contenido Web (WCAG 2.1 Nivel AA)** adaptadas a interfaces de escritorio (`WCAG2ICT`):
+1. **Perceptible:** La información y los componentes de la interfaz gráfica son presentados de forma que todos los usuarios puedan percibirlos (contraste cromático, ausencia de dependencia cromática única y textos alternativos).
+2. **Operable:** Todos los componentes interactivos son navegables y accionables desde el teclado sin requerir dispositivos apuntadores (ratón).
+3. **Comprensible:** Los flujos de trabajo, mensajes de error y estados del sistema siguen un patrón intuitivo, coherente y predecible.
+4. **Robusto:** El diseño de la interfaz en Swing es compatible con tecnologías de asistencia mediante la API de accesibilidad nativa de Java (`Java Access Bridge`).
+
+## 3. Justificación de Decisiones de Diseño en la Interfaz
+
+### 3.1. Ratios de Contraste Cromático y Uso del Color
+* **Cumplimiento del Criterio WCAG 1.4.3 (Contraste Mínimo):**
+  * **Texto Principal (`#1C1C1E`) sobre Fondo Claro (`#FFFFFF`):** Ratio de contraste de **17:1** (supera holgadamente el mínimo de 4.5:1 exigido para texto normal).
+  * **Texto Blanco sobre Azul Primario (`#1B4F72`):** Ratio de contraste de **8.7:1**.
+  * **Texto Secundario sobre Fondo Claro:** Ratio de contraste de **5.1:1**.
+* **Cumplimiento del Criterio WCAG 1.4.1 (Uso del Color):**
+  * El color **nunca es el único canal de información**. Los estados de inventario combinan color de acento con etiquetas de texto formateadas e iconos descriptivos:
+    * Verde (`#27AE60`) + `[OK] En stock`
+    * Ámbar (`#F39C12`) + `[BAJO] Stock bajo`
+    * Rojo (`#E74C3C`) + `[SIN STOCK] Sin stock`
+
+---
+
+### 3.2. Navegación Asistida por Teclado (Foco y Tabulación)
+* **Secuencia Lógica de Tabulación (Criterio 2.4.3):** El orden de foco sigue un recorrido estrictamente visual de izquierda a derecha y de arriba a abajo (`Tab` para avanzar, `Shift+Tab` para retroceder).
+* **Foco Visible y Resaltado (Criterio 2.4.7):** Todos los componentes interactivos (`JButton`, `JTextField`, `JComboBox`, `JTable`) cuentan con un indicador de foco visual distintivo al estar activos.
+* **Atajos y Teclas Rápidas:**
+  * Tecla `Enter`: Confirma acciones en formularios y diálogos modales.
+  * Tecla `Esc`: Cancela o cierra ventanas de diálogo sin guardar cambios.
+  * **Foco Inicial Automático:** En formularios de lectura/búsqueda (`txtBuscarStock`), el foco se posiciona automáticamente mediante `SwingUtilities.invokeLater()` para permitir el uso directo de pistolas escáner de código de barras.
+
+---
+
+### 3.3. Tipografía Escalable y Jerarquía de Texto
+* **Fuente del Sistema:** Uso de la familia sans-serif `SansSerif` / `Inter` para legibilidad general y tipografía monoespaciada (`Monospaced`) para códigos de referencia (`SKU`), ubicaciones (`PAS-02-EST-04`) y cantidades numéricas.
+* **Jerarquía Mínima:** La información crítica del almacén utiliza tamaños de fuente de 14 px a 24 px en pesos de grosor medio a negrita (`Bold`), evitando el uso de tamaños inferiores a 12 px para datos representativos.
+
+---
+
+### 3.4. Lectores de Pantalla y Ayudas Sensibles al Contexto
+* **Integración con Java Access Bridge:** Todos los componentes Swing incorporan etiquetas de accesibilidad mediante la API `AccessibleContext`:
+  * `setAccessibleName(String)`: Asigna un nombre descriptivo a los botones que solo contienen icono (ej. *"Imprimir código QR"* o *"Cerrar diálogo"*).
+  * `setAccessibleDescription(String)`: Proporciona ayuda contextual explicativa sobre la función del componente.
+* **Tablas Accesibles:** Las `JTable` exponen la información de cabeceras asociadas a cada celda para que herramientas de lectura como **NVDA** puedan verbalizar el contexto de la columna seleccionada.
+  
+## 4. Auditoría y Verificación
+
+| Prueba de Accesibilidad | Herramienta / Método | Resultado Obtenido | Estatus |
+| :--- | :--- | :--- | :--- |
+| **Contraste Cromático** | Colour Contrast Analyser (CCA) | Ratios $\ge 4.5:1$ en todos los pares texto/fondo de los 9 paneles. | **CONFORME** |
+| **Navegación por Teclado** | Auditoría manual sin ratón | 100% de los elementos navegables y accionables vía `Tab` / `Enter`. | **CONFORME** |
+| **Lectura Accesible** | NVDA + Java Access Bridge | Reconocimiento correcto de árboles de accesibilidad y nombres en botones. | **CONFORME** |
+
 
 ## 8. Análisis de riesgos iniciales
+Se realizó un análisis de riesgos inicial para anticipar los obstáculos técnicos, de planificación, operativos y de equipo que podrían amenazar el éxito del proyecto, valorar su impacto y definir respuestas preventivas y correctivas. El análisis sigue el proceso general de gestión del riesgo descrito en la norma ISO 31000 [1], que comprende identificar, evaluar y tratar los riesgos.
 
+Para la evaluación se empleó un análisis cualitativo basado en una matriz de probabilidad e impacto con tres niveles (bajo, medio y alto), un método habitual en proyectos de tecnologías de la información [2]. Los valores los estimó el equipo a partir de su criterio. Para obtener la severidad se asignó un valor numérico a cada nivel (bajo = 1, medio = 2, alto = 3) y se multiplicaron probabilidad e impacto. Las severidades de 1 a 2 se consideran bajas, las de 3 a 4 medias y las de 6 a 9 altas.
+
+### 2. Riesgos identificados y evaluación
+
+Se identificaron diez riesgos. Seis tienen severidad alta, tres media y uno baja. El más grave es el R06, los retrasos por falta de tiempo, con probabilidad alta e impacto alto (severidad 9).
+
+### 3. Matriz de gestión de riesgos
+
+| ID | Descripción | Probabilidad | Impacto | Severidad | Medida de prevención | Plan de contingencia |
+|---|---|---|---|---|---|---|
+| R01 | Rendimiento insuficiente en equipos antiguos o PDA | Media | Medio | 4 (Media) | Probar pronto en un equipo modesto; no cargar listas enteras | Reducir datos mostrados y simplificar pantallas |
+| R02 | Incompatibilidades en empaquetado y ejecución multiplataforma | Media | Alto | 6 (Alta) | Versión de Java común; probar el empaquetado en varios sistemas y en HiDPI | Entregar con instrucciones y versión de Java necesaria |
+| R03 | Cambios de alcance | Alta | Medio | 6 (Alta) | Product Backlog priorizado y alcance cerrado por sprint | Cambios nuevos al siguiente sprint |
+| R04 | Retrasos por falta de tiempo | Alta | Alto | 9 (Alta) | Planificar con margen y revisar el avance cada semana | Recortar funciones de menor prioridad y avisar al equipo |
+| R05 | Reparto desigual o baja disponibilidad de un miembro | Media | Alto | 6 (Alta) | Issues con responsable y reuniones breves | Reasignar tareas entre el resto |
+| R06 | Conflictos al fusionar código en Git | Media | Bajo | 2 (Baja) | Ramas por funcionalidad, commits frecuentes y pull requests | Resolver entre todos y recuperar versiones del historial |
+| R07 | Decisiones técnicas pendientes que obliguen a rehacer trabajo | Media | Medio | 4 (Media) | Decidir pronto el uso sin conexión y el almacenamiento | Aislar el acceso a datos en el modelo (MVC) |
+| R08 | Pérdida o corrupción de datos | Baja | Alto | 3 (Media) | Validar datos antes de guardar y hacer copias periódicas | Restaurar la última copia |
+
+### 4. Conclusiones
+
+Los riesgos más importantes se concentran en la planificación y en la implementación: la falta de tiempo, la fidelidad del diseño en Swing, el empaquetado multiplataforma, los cambios de alcance y la disponibilidad del equipo. Las medidas de prevención se aplican desde el inicio, con alcance cerrado por sprint, prototipos tempranos y un reparto claro del trabajo, y la matriz se revisa en cada sprint para actualizar la probabilidad y el impacto de cada riesgo.
+
+### Referencias
+
+[1] International Organization for Standardization, "Risk management — Guidelines," ISO 31000:2018, 2nd ed., Feb. 2018. [Online]. Available: https://www.iso.org/standard/65694.html
+
+[2] P. Croswell, "Qualitative risk analysis," GEOG 871: Geospatial Technology Project Management, The Pennsylvania State University. [Online]. Available: https://courses.ems.psu.edu/geog871/node/1772 (accessed Oct. 26, 2026).
 ### 1. Objetivo y metodología
 
 Se realizó un análisis de riesgos inicial para anticipar los obstáculos técnicos, de planificación, operativos y de equipo que podrían amenazar el éxito del proyecto, valorar su impacto y definir respuestas preventivas y correctivas. El análisis sigue el proceso general de gestión del riesgo descrito en la norma ISO 31000 [1], que comprende identificar, evaluar y tratar los riesgos.
@@ -692,5 +1059,3 @@ Los riesgos más importantes se concentran en la planificación y en la implemen
 [1] International Organization for Standardization, "Risk management — Guidelines," ISO 31000:2018, 2nd ed., Feb. 2018. [Online]. Available: https://www.iso.org/standard/65694.html
 
 [2] P. Croswell, "Qualitative risk analysis," GEOG 871: Geospatial Technology Project Management, The Pennsylvania State University. [Online]. Available: https://courses.ems.psu.edu/geog871/node/1772 (accessed Oct. 26, 2026).
-
-## 9. Referencias
