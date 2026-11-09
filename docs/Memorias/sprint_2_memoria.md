@@ -1,5 +1,12 @@
 # Memoria Final — Sprint 2
 
+## Integrantes del grupo y coevaluación:
+- Álvaro López 95%
+- Ángel Luis Sánchez 95%
+- Carmen Monge 95%
+- Elena Sáez 95%
+
+
 ## 1. Sector profesional y perfil de usuarios
 
 ## 1. Contexto:
